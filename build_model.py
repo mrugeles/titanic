@@ -57,16 +57,5 @@ if __name__ == '__main__':
 
     model_score = accuracy_score(y_test, predictions)
 
-    '''
-    classifier, default_score, tuned_score, matrix = tune_classifier(
-        classifier, 
-        parameters, 
-        X_train, 
-        X_test, 
-        y_train,
-        y_test)
-    '''
-
     print("Model score: {:.4f}".format(model_score))
-    #print("Optimized model score: {:.4f}".format(tuned_score))
     joblib.dump(classifier, 'model.joblib')
