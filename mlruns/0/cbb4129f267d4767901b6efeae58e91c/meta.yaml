@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mrugeles/Documents/DataScience/titanic/mlruns/0/cbb4129f267d4767901b6efeae58e91c/artifacts
+end_time: 1602344399554
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: cbb4129f267d4767901b6efeae58e91c
+run_uuid: cbb4129f267d4767901b6efeae58e91c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1602344399367
+status: 3
+tags: []
+user_id: mrugeles
