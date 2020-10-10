@@ -1,0 +1,11 @@
+  {
+    "dataset": "datasets/train.csv",
+    "classifier": "GradientBoostingClassifier",
+    "classifier_hyperparams" : {
+        "n_estimators": 100,
+        "criterion": "mse",
+        "loss": "deviance"
+    },
+    "seed": 134,
+    "test_size": 0.2
+  }
