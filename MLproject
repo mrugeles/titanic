@@ -8,6 +8,4 @@ entry_points:
       config_file: {type: string, default: "config.json"}
     command: "python build_model.py {config_file}"
   dataset_etl:
-    parameters:
-      data_file: path
-    command: "python dataset_etl"
+    command: "python dataset_etl.py"
